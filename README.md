@@ -1,26 +1,47 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Ionic v3
+![ionic](http://www.mindinventory.com/blog/wp-content/uploads/2017/04/ionic-3.jpg)
 
-## How to use this template
+## ¡Bienvenido a mi aplicación en Ionic!
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+Me presento.
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+Mi nombre es Gonzalo, trabajo en *Atech, SL (Málaga)* y me dedico al desarrollo web y multiplataforma.
 
-### With the Ionic CLI:
+Esta app es sólo para probar diferentes propiedades y opciones dentro del mundo de Ionic y ÁngularJS, pero algún día espero llegar a publicar mi propia aplicación en la Google Play Store.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+## Pequeño tutorial de instalación de Ionic 3:
+
+Para empezar, debemos instalar NodeJS desde su [página oficial](https://nodejs.org/es/download/) y realizar la instalación (en este caso desde Windows).
+
+Una vez terminada la instalación, creamos una carpeta donde guarar nuestros proyectos Ionic, instalamos las dependencias de Ionic y Cordova e inicializamos un nuevo proyecto.
+
+**SE RECOMIENDA EJECUTAR EL CMD COMO ADMINISTRADOR**
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTutorial tutorial
+md C:\ionic
+cd C:\ionic
+npm install -g ionic cordova
+start NombreProyecto
 ```
 
-Then, to run it, cd into `myTutorial` and run:
+Para ejecutar nuestro proyecto, hacemos `cd NombreProyecto` y ejecutamos:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+ionic cordova platform add android
+ionic serve
 ```
 
-Substitute ios for android if not on a Mac.
+La primera línea solo será necesaria la primera vez que ejecutemos el proyecto.
 
+## ¿Quieres probar mi App?
+Si quieres probar el desarrollo de mi aplicación, debes copiar en la carpeta `..\src\pages` en contenido de mi carpeta `..\..\pages`.
+Con eso debería bastar.
+
+## Estructura de ficheros
+
+Las vistas de cada página las encontraremos en `..\src\pages`. Normalmente trabajaremos en esta carpeta, aunque en algún momento necesitaremos utilizar las demás.
+
+## SUERTE CON TU DESARROLLO EN IONIC
+Os dejo [AQUÍ](https://www.youtube.com/playlist?list=PLYxzS__5yYQng-XnJhB21Jc7NW1OIaqct) una lista de reproducción de una serie de tutoriales gráficos en Ionic. Está en inglés, pero el acento se entiende perfectamente.
+
+Por el contrario, si el inglés no es vuestro punto fuerte, os dejo con [OTRA](https://www.youtube.com/playlist?list=PLYPjmy5IVxT-7FV0uzpG2izFhGoE0Hq2y) lista de reproducción, esta vez en español.

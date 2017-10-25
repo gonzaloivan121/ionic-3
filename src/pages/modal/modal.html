@@ -15,9 +15,43 @@
 
 
 <ion-content padding>
+  <div *ngIf="misParams.musica == true">
+    <ion-item>
+      <ion-icon name='musical-notes' item-start></ion-icon>
+      <ion-label>Música</ion-label>
+      <ion-note item-end>Metal</ion-note>
+    </ion-item>
+  </div>
 
-  <pre style="background-color: #f8f8f8">selections: [
-    {{misParams}}
-  ]</pre>
+  <div *ngIf="misParams.programar == true">
+    <ion-item>
+      <ion-icon name='code' item-start></ion-icon>
+      <ion-label>Programar</ion-label>
+      <ion-note item-end>HTML, CSS, JSP...</ion-note>
+    </ion-item>
+  </div>
 
+  <div *ngIf="misParams.baloncesto == true">
+    <ion-item>
+      <ion-icon name='basketball' item-start></ion-icon>
+      <ion-label>Baloncesto</ion-label>
+      <ion-note item-end>Deportes</ion-note>
+    </ion-item>
+  </div>
+
+  <div *ngIf="misParams.acampar == true">
+    <ion-item>
+      <ion-icon name='bonfire' item-start></ion-icon>
+      <ion-label>Acampar</ion-label>
+      <ion-note item-end>Me gusta el campo</ion-note>
+    </ion-item>
+  </div>
+
+  <div *ngIf="misParams.pizza == true">
+    <ion-item>
+      <ion-icon name='pizza' item-start></ion-icon>
+      <ion-label>Pizza</ion-label>
+      <ion-note item-end>Mi favorita</ion-note>
+    </ion-item>
+  </div>
 </ion-content>

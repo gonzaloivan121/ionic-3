@@ -15,6 +15,8 @@ Para empezar, debemos instalar NodeJS desde su [página oficial](https://nodejs.
 
 Una vez terminada la instalación, creamos una carpeta donde guarar nuestros proyectos Ionic, instalamos las dependencias de Ionic y Cordova e inicializamos un nuevo proyecto.
 
+**SE RECOMIENDA EJECUTAR EL CMD COMO ADMINISTRADOR**
+
 ```bash
 md C:\ionic
 cd C:\ionic

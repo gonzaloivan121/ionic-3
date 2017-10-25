@@ -1,3 +1,4 @@
+![ionic](http://www.mindinventory.com/blog/wp-content/uploads/2017/04/ionic-3.jpg)
 # Ionic v3
 ## ¡Bienvenido a mi aplicación en Ionic!
 

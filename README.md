@@ -1,10 +1,9 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## ¡Bienvenido a mi aplicación en Ionic!
 
-## How to use this template
+Me presento.
+Mi nombre es Gonzalo, trabajo en *Atech, SL (Málaga)* y me dedico al desarrollo web y multiplataforma.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+Esta app es sólo para probar diferentes propiedades y opciones dentro del mundo de Ionic y ÁngularJS, pero eso no significa que algún día pueda llegar a publicar mi propia aplicación en la Google Play Store.
 
 ### With the Ionic CLI:
 

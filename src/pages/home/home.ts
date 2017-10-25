@@ -15,7 +15,7 @@ import { ModalPage } from '../modal/modal';
 })
 export class HomePage {
   misParams = {
-    musica: null,
+    musica: null,  
     programar: null,
     baloncesto: null,
     acampar: null,
@@ -30,12 +30,13 @@ export class HomePage {
     ){
   }
 
-  public openModal(){
+  public openModal() {
     var modalPage = this.modalCtrl.create(ModalPage, { 'misParams': this.misParams });
     modalPage.onDidDismiss(
       data => {
         const toast = this.toastCtrl.create({
           message: 'Has cerrado el modal correctamente.',
+          duration: 2000,
           showCloseButton: true,
           closeButtonText: 'Ok'
         });

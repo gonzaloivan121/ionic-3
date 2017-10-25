@@ -14,6 +14,11 @@
 </ion-header>
 
 <ion-content padding>
+
+  <div *ngIf="misParams.musica == null && misParams.programar == null && misParams.baloncesto == null && misParams.acampar == null && misParams.pizza == null ">
+    <p>No se ha pasado ningún parámetro</p>
+  </div>
+
   <div *ngIf="misParams.musica == true">
     <ion-item>
       <ion-icon name='musical-notes' item-start></ion-icon>
@@ -53,4 +58,5 @@
       <ion-note item-end>Mi favorita</ion-note>
     </ion-item>
   </div>
+
 </ion-content>

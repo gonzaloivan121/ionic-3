@@ -4,7 +4,7 @@ Me presento.
 
 Mi nombre es Gonzalo, trabajo en *Atech, SL (Málaga)* y me dedico al desarrollo web y multiplataforma.
 
-Esta app es sólo para probar diferentes propiedades y opciones dentro del mundo de Ionic y ÁngularJS, pero algún día llegaré a publicar mi propia aplicación en la Google Play Store (espero).
+Esta app es sólo para probar diferentes propiedades y opciones dentro del mundo de Ionic y ÁngularJS, pero algún día espero llegar a publicar mi propia aplicación en la Google Play Store.
 
 ### Pequeño tutorial de instalación de Ionic 3:
 #### Para quien quiera probar mi App

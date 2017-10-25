@@ -1,5 +1,6 @@
-![ionic](http://www.mindinventory.com/blog/wp-content/uploads/2017/04/ionic-3.jpg)
 # Ionic v3
+![ionic](http://www.mindinventory.com/blog/wp-content/uploads/2017/04/ionic-3.jpg)
+
 ## ¡Bienvenido a mi aplicación en Ionic!
 
 Me presento.

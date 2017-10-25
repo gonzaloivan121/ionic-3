@@ -1,3 +1,4 @@
+# Ionic v3
 ## ¡Bienvenido a mi aplicación en Ionic!
 
 Me presento.
@@ -29,3 +30,8 @@ ionic serve
 
 La primera línea solo será necesaria la primera vez que ejecutemos el proyecto.
 
+### Estructura de ficheros
+
+Las vistas de cada página las encontraremos en `..\src\pages`. Normalmente trabajaremos en esta carpeta, aunque en algún momento necesitaremos utilizar las demás.
+
+### SUERTE CON TU DESARROLLO EN IONIC

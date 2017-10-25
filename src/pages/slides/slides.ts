@@ -47,9 +47,9 @@ export class SlidesPage {
   ionViewWillLeave() {
     const bienvenido = this.toastCtrl.create({
           message: 'Bienvenido a mi aplicación',
+          position: 'top',
           duration: 1500,
-          showCloseButton: false,
-          position: 'top'
+          cssClass: "bienvenido"
       });
       bienvenido.present();
   }

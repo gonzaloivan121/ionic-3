@@ -37,4 +37,7 @@ Con eso debería bastar.
 
 Las vistas de cada página las encontraremos en `..\src\pages`. Normalmente trabajaremos en esta carpeta, aunque en algún momento necesitaremos utilizar las demás.
 
-### SUERTE CON TU DESARROLLO EN IONIC
+## SUERTE CON TU DESARROLLO EN IONIC
+Os dejo [AQUÍ](https://www.youtube.com/playlist?list=PLYxzS__5yYQng-XnJhB21Jc7NW1OIaqct) una lista de reproducción de una serie de tutoriales gráficos en Ionic. Está en inglés, pero el acento se entiende perfectamente.
+
+Por el contrario, si el inglés no es vuestro punto fuerte, os dejo con [OTRA](https://www.youtube.com/playlist?list=PLYPjmy5IVxT-7FV0uzpG2izFhGoE0Hq2y) lista de reproducción, esta vez en español.

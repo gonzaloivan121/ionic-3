@@ -1,0 +1,69 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Inicio</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>¡Bienvenido a mi aplicación en Ionic!</h3>
+
+  <p>
+    Me presento.
+  </p>
+  <p>
+    Mi nombre es Gonzalo, trabajo en <code>Atech, SL (Málaga)</code> y me dedico al desarrollo web y multiplataforma.
+  </p>
+  <p>
+    Esta app es sólo para probar diferentes propiedades y opciones dentro del mundo de Ionic y ÁngularJS, 
+    pero eso no significa que algún día pueda llegar a publicar mi propia aplicación en la Google Play Store.
+  </p><br>
+
+  <ion-list no-border>
+
+    <ion-list-header>
+      Aficiones
+    </ion-list-header>
+
+    <ion-item>
+      <ion-icon name='musical-notes' item-start></ion-icon>
+      <ion-label>Música</ion-label>
+      <ion-checkbox item-end [(ngModel)]="misParams.musica"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='code' item-start></ion-icon>
+      <ion-label>Programar</ion-label>
+      <ion-checkbox item-end [(ngModel)]="misParams.programar"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='basketball' item-start></ion-icon>
+      <ion-label>Baloncesto</ion-label>
+      <ion-checkbox item-end [(ngModel)]="misParams.baloncesto"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='bonfire' item-start></ion-icon>
+      <ion-label>Acampar</ion-label>
+      <ion-checkbox item-end [(ngModel)]="misParams.acampar"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='pizza' item-start></ion-icon>
+      <ion-label>Pizza</ion-label>
+      <ion-checkbox item-end [(ngModel)]="misParams.pizza"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+  <br>
+  <p>A continuación, incluyo un botón para abrir un modal con los parámetros de las aficiones.</p>
+  <button ion-button block (click)="openModal()">Abrir Modal</button>
+
+
+</ion-content>

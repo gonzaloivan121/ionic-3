@@ -29,8 +29,9 @@ ionic serve
 
 La primera línea solo será necesaria la primera vez que ejecutemos el proyecto.
 
-### Para quien quiera probar mi App
-Copiamos en la carpeta `..\src\pages` en contenido de mi carpeta `..\..\pages`.
+## ¿Quieres probar mi App?
+Si quieres probar el desarrollo de mi aplicación, debes copiar en la carpeta `..\src\pages` en contenido de mi carpeta `..\..\pages`.
+Con eso debería bastar.
 
 ## Estructura de ficheros
 

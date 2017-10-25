@@ -1,25 +1,31 @@
 ## ¡Bienvenido a mi aplicación en Ionic!
 
 Me presento.
+
 Mi nombre es Gonzalo, trabajo en *Atech, SL (Málaga)* y me dedico al desarrollo web y multiplataforma.
 
-Esta app es sólo para probar diferentes propiedades y opciones dentro del mundo de Ionic y ÁngularJS, pero eso no significa que algún día pueda llegar a publicar mi propia aplicación en la Google Play Store.
+Esta app es sólo para probar diferentes propiedades y opciones dentro del mundo de Ionic y ÁngularJS, pero algún día llegaré a publicar mi propia aplicación en la Google Play Store (espero).
 
-### With the Ionic CLI:
+### Pequeño tutorial de instalación de Ionic 3:
+#### Para quien quiera probar mi App
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Para empezar, debemos instalar NodeJS desde su [página oficial](https://nodejs.org/es/download/) y realizar la instalación (en este caso desde Windows).
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTutorial tutorial
-```
-
-Then, to run it, cd into `myTutorial` and run:
+Una vez terminada la instalación, creamos una carpeta donde guarar nuestros proyectos Ionic, instalamos las dependencias de Ionic y Cordova e inicializamos un nuevo proyecto.
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+md C:\ionic
+cd C:\ionic
+npm install -g ionic cordova
+start NombreProyecto
 ```
 
-Substitute ios for android if not on a Mac.
+Para ejecutar nuestro proyecto, hacemos `cd NombreProyecto` y ejecutamos:
+
+```bash
+ionic cordova platform add android
+ionic serve
+```
+
+La primera línea solo será necesaria la primera vez que ejecutemos el proyecto.
 
